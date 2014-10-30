@@ -1,0 +1,33 @@
+<html >
+	<head>
+		<title>
+			Directive APP
+		</title>
+		<link rel="stylesheet" href="../external/bootstrap.css"/>
+		<script src="../external/angular.js"></script>
+		<script src="../js/homeController.js"></script>
+		
+	</head>
+	<body ng-app="directiveApp">
+		
+		
+		<!-- Header -->
+		<div class="navbar navbar-default navbar-fixed-top" >App Header</div>
+		
+		<div ng-controller="homeController">
+	
+			<div class="container" style="padding-top:100px;">
+				<home-directive></home-directive>
+			</div>
+		
+				
+		
+			
+			
+		</div>
+		
+		<!-- Footer -->
+		<div class="navbar navbar-default navbar-fixed-bottom" >App Footer</div>
+	</body>
+	
+</html>
