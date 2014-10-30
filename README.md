@@ -1,4 +1,11 @@
 tangular
 ========
 
-a table directive for angular js
+A table directive for angular js.
+Provides : 
+  -Customization
+  -Pagination
+  -
+  -
+  -
+  
